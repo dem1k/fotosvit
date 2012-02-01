@@ -1,0 +1,132 @@
+html {height:100%;}
+
+body, p, ol, ul, li, td, div, form, button, select, input, a {margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif; font-size: 13px;}
+body {position:relative; width:100%; height: auto !important; min-height:100%;}
+ol {padding-left:30px; display:block; list-style-type:decimal; margin: 10px 0;}
+ul {list-style: none;}
+li img {margin-right: 5px;}
+p {margin: 10px auto;}
+a {color: #595959;}
+
+h1, h2, h3, h4 {color: #3d3d3d; margin-top: 0;}
+
+/* Form */
+select, input, textarea {border: 1px solid #898989;}
+button, input[type=submit], input[type=button] {
+  cursor: pointer;
+  margin: 3px;
+  padding: 2px 3px;
+  border: 1px solid #898989;
+  background-color: #f0f0f1;
+}
+
+/* Table */
+table {margin: 10px auto; width: 100%; border-collapse: collapse;}
+table img {margin: 0 3px;}
+th, td {padding: 3px; text-align: center; border: 1px solid #898989;}
+th {background-color: #f0f0f1; color: #595959;}
+tr.second {background-color: #f5f5f5;}
+td.text-td {text-align: left;}
+
+
+
+#bg_right, #bg_left {
+  bottom:0;
+  height:100%;
+  position:absolute;
+  width:27px;
+}
+
+#bg_right {
+  background: transparent url("../images/bg_right.gif") right repeat-y;
+  right:0;
+}
+
+#bg_left {
+    left: 0;
+    background: transparent url("../images/bg_left.gif") left repeat-y;
+}
+
+#header {
+  background: url("../images/bg_header.gif") left top repeat-x;
+  height: 95px;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#header img.ico {
+    left: 14px;
+    top:  14px;
+}
+
+
+#title {right: 27px; height: 81px; top: 31px; left: 27px; background: transparent url("../images/bg_title.gif") left top repeat-x;}
+
+#header h1 {
+  margin: 0;
+  padding: 0 0 0 81px;
+  top: 23px;
+  right: 27px;
+  left: 37px;
+  line-height: 89px;
+  height: 89px;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+#footer {
+    background: url("../images/bg_footer.gif") repeat-x;
+    height: 49px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#page {
+	overflow: hidden;
+  margin:0 37px;
+  padding:120px 0 60px;
+}
+
+#header, #header img, #title, #footer, #footer p, #footer img, #header h1 {
+  position:absolute;
+  white-space:nowrap;
+}
+#footer p {
+    right: 2em;
+    top: 0;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0;
+    color: #adadad;
+}
+
+.left0 {left:0;}
+.right0 {right:0;}
+
+
+/* HEADER TITILES  */
+h1.t_universal {background: url("../images/t_universal.png") center left no-repeat;}
+h1.t_registration {background: url("../images/t_registration.png") center left no-repeat;}
+h1.t_partners {background: url("../images/t_partners.png") center left no-repeat;}
+h1.t_busines {background: url("../images/t_busines.png") center left no-repeat;}
+h1.t_price {background: url("../images/t_price.png") center left no-repeat;}
+h1.t_news {background: url("../images/t_news.png") center left no-repeat;}
+
+.talign_right {text-align: right;}
+
+
+/* ######################### NEWS ########################## */
+
+.news-date {
+	font-weight: bold;
+	color: #5e5e5e;
+	padding: 10px 0;
+}
+.news-content {}
+
+
+/* ######################Filemanager#######################*/
+#dir_listing {width:710px; margin:0px auto;}

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>main</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('img/price_hover.png')">
+
+<div id="main">
+	<div class="top">
+    <div class="logo"></div>
+    <div class="slogan">Весь фокус в качестве</div>
+    <div class="login"><a href="#">Войти</a>/<a href="#">Регистрация</a></div>
+    <div class="basket"><div class="basket_text"><div class="bask">В корзине:</div><br />
+ <div class="bask">5</div> товаров на сумму: <div style="color:#ca0404">7 205</div> 
+<div class="curensy">Курс: 1$ = 8.56 грн.</div>
+</div>
+
+</div>
+    </div> <!--end top-->
+    
+    <div class="clear"></div>
+    
+    <div class="left">
+    <div class="search">
+      <input type="text" class="search" value="Поиск по товарам" />
+    </div>
+    <div class="list_t"></div>
+    <div class="list">
+        <ul>
+      <li><a href="#">цифровые фотоаппараты</a></li>
+	<li><a href="#">фотоальбомы</a></li>
+	<li><a href="#">фоторамки</a></li>
+	<li><a href="#">элементы питания</a></li>
+	<li><a href="#">зарядные устройства</a></li>
+	<li><a href="#">карты памяти</a></li>
+	<li><a href="#">сумки и чехлы</a></li>
+	<li><a href="#">носители информации</a></li>
+	<li><a href="#">фотобумага</a></li>
+	<li><a href="#">фотопленка</a></li></ul>
+    </div> <!--end list-->
+     <div class="list_b"></div>
+    <div class="pricebutton"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('price','','img/price_hover.png',1)"><img src="img/price.png" alt="price button" name="price" width="169" height="42" border="0" id="price" /></a></div>
+    <div class="banner"><img src="img/banner.png" width="169" height="88" /></div>
+    <div class="banner"><img src="img/banner.png" width="169" height="88" /></div>
+</div> <!--end left-->
+    <div class="content">
+    <h2>Оформление заказа</h2>
+     <div class="order_page">
+    <div class="rule"></div>
+	<strong>Контактные данные получателя</strong>
+   <div class="order_table"> <table width="100%" border="0">
+  <tr>
+    <td width="180"><div class="field">Имя</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Фамилия</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Отчество</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Телефон</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Эл.почта</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Город</div><div class="asterisk">*</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+  <tr>
+    <td><div class="field">Адрес</div></td>
+    <td><input type="text" size="40" /></td>
+  </tr>
+</table></div><!--order table-->
+<div class="rule"></div>
+<div class="delivery"><strong>Cпособ доставки</strong> <select name="delivery" class="delivery_list">
+  <option>курьерская доставка</option>
+  <option>транспортное агентство</option>
+  <option>почтовая посылка</option>
+  <option>самовывоз</option>
+</select></div><!--delivery-->
+<div class="pay"><strong>Способ оплаты</strong><select name="pay" class="pay_list">
+  <option>наличными</option>
+  <option>кредитная карта</option>
+  <option>денежный перевод</option>
+  <option>вебмани</option>
+  <option>яндекс деньги</option>
+</select></div>
+<div class="adres"><strong>Адрес склада</strong><input name="adres" type="text" class="adres" size="28" /></div>
+
+<div class="order_button"><a href="#"><img src="file:///G|/web/work/фотомагазин/html/img/orderok.png" width="232" height="39" /></a></div>
+    </div><!--order_page-->
+  </div> <!--end content-->
+</div>
+<!--end main-->
+<div class="menu_bg">
+  <div class="conteiner">
+<div class="menu">
+    <ul>
+    <a href="#"><li>О компании</li></a>
+    <a href="#"><li>Новости</li></a>
+    <a href="#"><li>Акции</li></a>
+    <a href="#"><li>Как оформить заказ</li></a>
+    <a href="#"><li>Доставка</li></a>
+    <a href="#"><li>Оплата</li></a>
+    <a href="#"><li>Контакты</li></a>
+    </ul>
+    </div> <!--end menu-->
+    </div> <!--end conteiner-->
+</div> <!--end menu_bg-->
+<div class="clear"></div>
+<div class="footer">
+<div class="center"><div class="copyright"><a href="#">svitfoto.com.ua</a><br />
+Специализированный магазин фототоваров</div>
+<div class="phone">8080 000 00 00 <br />
+mail@mail.ru</div>
+<div class="counter"><img src="img/counter.jpg" width="160" height="69" align="right" /></div></div>
+</div> <!--end footer-->
+</body>
+</html>

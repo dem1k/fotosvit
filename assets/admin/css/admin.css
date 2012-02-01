@@ -1,0 +1,152 @@
+body {
+	margin:0;
+	background:url(../images/admin/bg.gif) left top repeat;
+}
+
+div {width: auto;}
+
+.field {margin:0 0 15px 0;}
+.field input {width: 500px;}
+.field textarea{width:500px;height:300px;}
+
+a {color:#6a6a6a;}
+
+a.button {
+padding:0 7px;
+text-decoration:none;
+cursor:pointer;
+color:#fff;
+background:#999999;
+border:1px solid #686868;
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-bottomright:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+}
+
+.wrapper {
+	position:relative;
+	margin: 0 auto;
+	width:1000px;
+	padding: 40px 0 0 0;
+}
+
+.message, .errors {position:absolute;text-align:center;top:5px;left:0;right:0;height:25px;line-height:25px;padding:0 5px;overflow:hidden;border: 1px solid #b9b699;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;}
+.message {background:#fff8a8;}
+.errors {background:#ffb2b2;}
+.message p, .errors p {margin:0;padding:0;text-align:center;}
+
+.clear {clear:both;margin-top:-1px;height:1px;line-height:1px;font-size:1px;}
+
+.error {font-size:12px;color:#bd0000;}
+
+
+/* #################### LEFT COLUMN (SIDEBAR) #################### */
+.column-left {
+	position: relative;
+	margin-top:50px;
+	float: left;
+	width: 150px;
+	z-index:10;
+}
+
+ul.sidebar{
+	margin:0;
+	padding:0;
+	background:url(../images/admin/bg_sidebar.png) left top repeat-y;
+}
+
+ul.sidebar li {
+	display: block;
+	list-style: none;
+	border-bottom: 2px solid #686868;
+	border-left: 2px solid #686868;
+	background:#bfbfbf;
+	opacity: 0.9;
+}
+
+ul.sidebar li.first {
+	border-top: 2px solid #686868;
+}
+
+ul.sidebar li.active {
+	border-left: 2px solid #686868;
+	border-bottom: 5px solid #686868;
+	background:#fff;
+	margin-right:-5px;
+}
+
+ul.sidebar a {
+	display:block;
+	padding: 10px 15px;
+	text-decoration:none;
+	color:#494949;
+	font-weight:bold;
+}
+
+ul.sidebar a:hover{
+	background:#fff;
+}
+
+
+
+/* #################### MAIN #################### */
+
+.main {
+	position: relative;
+	float: left;
+	background:#fff url(../images/admin/bg_main.png) right top repeat-y;
+	padding:10px;
+	border: 5px solid #686868;
+	min-height:700px;
+	width: 820px;
+	z-index:1;
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+}
+
+.actions {
+margin:10px 0;
+}
+
+/* #################### TABLE (EXTENDED) #################### */
+
+.dataTables_wrapper {position:relative;}
+table.extended {clear:both;width:100%;border-collapse:collapse;background:#fff;}
+.dataTables_length, .dataTables_filter, .dataTables_paginate, .dataTables_info  {margin:10px 0;}
+.dataTables_length {float:right;}
+.dataTables_filter {float:left;}
+table.extended, table.extended th, table.extended td {border: 1px solid #bfbfbf;}
+table.extended th, table.extended td {padding:3px;}
+table.extended th {background:#dfdfdf;}
+table.extended tr.odd {	background:#f2f2f2;}
+.dataTables_paginate {float:right;}
+.dataTables_info {float:left;}
+.paginate_enabled_previous, .paginate_enabled_next, .paginate_disabled_previous, .paginate_disabled_next {width:15px;height:15px;float:left;margin: 0 3px;}
+.paginate_enabled_previous, .paginate_enabled_next {cursor:pointer;}
+.paginate_enabled_next {background:url(../images/admin/arrows.png) 0 0 no-repeat;}
+.paginate_enabled_previous {background:url(../images/admin/arrows.png) 0 -15px no-repeat;}
+.paginate_disabled_next {background:url(../images/admin/arrows.png) 0 -30px no-repeat;}
+.paginate_disabled_previous {background:url(../images/admin/arrows.png) 0 -45px no-repeat;}
+
+/* #################### LOGIN #################### */
+
+#auth label {display:block;float:left;width:100px;}
+#auth .field {float:right;max-width:207px;}
+#auth .field input {max-width:200px;}
+#auth .error {font-size:12px;color:#bd0000;}
+#auth ul {margin:10px 0;padding:0;}
+#auth li{list-style:none;font-size:12px;color:#bd0000;}
+#dir_listing {width:710px; margin:0px auto;}
+
+/* #################### FILEMANAGER #################*/
+
+a,a:visited,a:hover{display:block; text-align:center; text-decoration:none; }
+.b_dl	{margin-left:1px; background: url("../images/down.png") center left no-repeat;}
+.b_dl:hover{color:#98C988; margin-left:1px; background: url("../images/down.png")  0px -32px no-repeat;}
+.b_dl:visited{color:#9D9D9D; margin-left:1px; background: url("../images/down.png")  0px 0px no-repeat;}
+.b_drop	{margin-left:1px; background: url("../images/delete.png") 0px -11px no-repeat;}
+.b_drop:hover{color:#D64F4F; margin-left:1px; background: url("../images/delete.png")  0px -30px no-repeat;}
+
